@@ -1,0 +1,44 @@
+site_name: Helluva Job Karaoke
+title: Helluva Job Karaoke - J&S Entertainment
+description: Karaoke services for corporate events, weddings, birthdays, anniversaries, retirements, and more.
+author: J&S Entertainment
+email: hellofajobkaraoke@gmail.com
+baseurl: ""  # leave empty if hosted at root, otherwise use "/subfolder"
+url: "https://yourdomain.com"  # Replace with your actual domain
+
+pages:
+  - home: "#home"
+  - contact: "#contact"
+  - schedule: "#schedule"
+
+theme:
+  background_color: "#000000"
+  primary_color: "#ff4c4c"
+  secondary_color: "#00ffff"
+  text_color: "#ffffff"
+  font_family: "Arial, sans-serif"
+
+meta_tags:
+  charset: "UTF-8"
+  viewport: "width=device-width, initial-scale=1.0"
+
+forms:
+  contact:
+    fields:
+      - name
+      - email
+      - message
+    submit: email
+    email_to: hellofajobkaraoke@gmail.com
+    method: external
+
+  schedule:
+    fields:
+      - name
+      - email
+      - date
+      - eventType
+      - details
+    submit: email
+    email_to: hellofajobkaraoke@gmail.com
+    method: external
